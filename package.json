@@ -1,0 +1,37 @@
+{
+  "name": "password-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.5.4",
+    "lucide-react": "^0.439.0",
+    "next": "14.2.8",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.0.1",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.5.4",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5"
+  }
+}
