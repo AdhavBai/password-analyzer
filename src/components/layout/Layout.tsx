@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-export function Layout({ children, title = 'Tinfoil | Security Engine' }: { children: React.ReactNode, title?: string }) {
+export function Layout({ children, title = 'Password Analyzer | Security Engine' }: { children: React.ReactNode, title?: string }) {
   return (
     <>
       <Head>
@@ -39,7 +39,7 @@ export function Layout({ children, title = 'Tinfoil | Security Engine' }: { chil
             </div>
             <div className="flex flex-col gap-4">
               <span className="text-[#A3A39E] font-medium">Resources</span>
-              <a href="#" className="hover:text-white transition-colors">GitHub</a>
+              <a href="https://github.com/AdhavBai/password-analyzer" className="hover:text-white transition-colors">GitHub</a>
             </div>
           </div>
         </div>

@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 
 export default function Performance() {
   return (
-    <Layout title="Performance | Tinfoil">
+    <Layout title="Performance | Password Analyzer">
       <section className="w-full max-w-screen-xl px-6 md:px-12 py-24 md:py-32 flex flex-col gap-16">
         <div className="max-w-3xl flex flex-col gap-6">
           <h1 className="text-4xl md:text-5xl font-medium tracking-tight">Engine Performance</h1>
           <p className="text-lg text-muted leading-relaxed">
-            Security tools should be instantaneous. We engineered Tinfoil to operate entirely in the client's browser, ensuring zero latency and maximum privacy.
+            Security tools should be instantaneous. We engineered Password Analyzer to operate entirely in the client's browser, ensuring zero latency and maximum privacy.
           </p>
         </div>
 
